@@ -1,4 +1,4 @@
-### **Smart City IoT:  Pothole Detection**
+###### **Smart City IoT:  Pothole Detection**
 
 
 
@@ -8,7 +8,7 @@
 
 ***
 
-### Table of content
+###### Table of content
 
 
 **Problem statement**
