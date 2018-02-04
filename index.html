@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mmmm Awake Chocolates</title>
+
+    <script src = "https://maps.googleapis.com/maps/api/js"></script>
+      
+      <script>
+         function loadMap() {
+			
+            var mapOptions = {
+               center:new google.maps.LatLng(45.50265, -73.57457), zoom:16,
+               mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+				
+            var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
+         }
+      </script>
+      
+</head>
+<body onload= "loadMap()">
+        <div id = "sample" style = "width:570px; height:580px;"></div>
+</body>
+</html>
+
